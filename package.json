@@ -1,13 +1,25 @@
-	{
-	  "name": "markdown_editor",
-	  "main": "./html/index.html",
-	  "single-instance": false,
-	  "window": {
-		"toolbar": false,
-		"show": true,
-		"icon": "./img/icon.png"
-	  },
-	  "dependencies": {
-		"marked": "^0.3.3"
-	  }
-	}
+{
+  "main": "./html/index.html",
+  "name": "Marky",
+  "description": "markdown tiny app",
+  "version": "0.1.0",
+  "keywords": [ "markdown", "node-webkit", "editor" ],
+  "single-instance": true,
+  "window": {
+    "title": "Marky",
+    "icon": "./img/icon.png",
+    "toolbar": true,
+    "show": true,
+    "frame": true,
+    "width": 800,
+    "height": 500,
+    "position": "mouse",
+    "min_width": 400,
+    "min_height": 200,
+    "max_width": 800,
+    "max_height": 600
+  },
+  "dependencies": {
+  "marked": "^0.3.3"
+  }
+}
