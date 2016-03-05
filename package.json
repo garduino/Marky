@@ -8,7 +8,7 @@
   "window": {
     "title": "Marky",
     "icon": "./img/icon.png",
-    "toolbar": true,
+    "toolbar": false,
     "show": true,
     "frame": true,
     "width": 800,

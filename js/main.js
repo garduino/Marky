@@ -12,5 +12,13 @@ function init(){
 			editor.reload();
 		});
 		tabOverride.set(global.window.document.getElementsByTagName('textarea'));
+
+		// for md extension treatment
+		if(global.gui.App.argv.length > 0){
+    editor.loadFile(global.gui.App.argv[0]);
+
+		// Tabs
+		tabOverride.set(global.window.document.getElementsByTagName('textarea'));
+}
 	});
 }
